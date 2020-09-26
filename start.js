@@ -1,4 +1,4 @@
-switch('color') {
+switch(localStorage.getItem('color')) {
     case '0':
         $( "body" ).removeClass( "dark" );
         $( ".inner-switch" ).text( "white" );
